@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "nombre": "Sede Central",
+    "distrito": "Lima Cercado",
+    "imagen": "/sedes/lima.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Sede Sur",
+    "distrito": "Santiago de Surco",
+    "imagen": "/sedes/surco.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Sede Norte",
+    "distrito": "Los Olivos",
+    "imagen": "/sedes/olivos.jpg"
+  },
+  {
+    "id": 4,
+    "nombre": "Sede Miraflores",
+    "distrito": "Miraflores",
+    "imagen": "/sedes/miraflores.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Sede San Miguel",
+    "distrito": "San Miguel",
+    "imagen": "/sedes/san-miguel.jpg"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  { "id": 1, "nombre": "Programación Web Avanzada", "creditos": 5, "turno": "Noche", "detalle": "Desarrollo de aplicaciones SPA con React y Node.js." },
+  { "id": 2, "nombre": "Estructuras de Datos", "creditos": 4, "turno": "Mañana", "detalle": "Análisis de algoritmos, grafos y optimización." },
+  { "id": 3, "nombre": "Diseño de Interfaces (UI/UX)", "creditos": 3, "turno": "Tarde", "detalle": "Principios de usabilidad y prototipado en Figma." },
+  { "id": 4, "nombre": "Bases de Datos II", "creditos": 4, "turno": "Mañana", "detalle": "Modelado no relacional, queries y MongoDB." },
+  { "id": 5, "nombre": "Arquitectura de Software", "creditos": 5, "turno": "Noche", "detalle": "Patrones de diseño y microservicios." },
+  { "id": 6, "nombre": "Desarrollo Móvil", "creditos": 4, "turno": "Tarde", "detalle": "Creación de apps nativas y cruzadas con Flutter." },
+  { "id": 7, "nombre": "Inteligencia Artificial", "creditos": 4, "turno": "Mañana", "detalle": "Introducción a Machine Learning y Python." },
+  { "id": 8, "nombre": "Seguridad Informática", "creditos": 3, "turno": "Noche", "detalle": "Criptografía y protección de servidores." },
+  { "id": 9, "nombre": "Gestión de Proyectos Ágiles", "creditos": 3, "turno": "Mañana", "detalle": "Implementación de frameworks Scrum y Kanban." },
+  { "id": 10, "nombre": "Testing y Calidad de Software", "creditos": 3, "turno": "Tarde", "detalle": "Pruebas unitarias y automatización con Jest." }
+]
