@@ -25,7 +25,7 @@ export default function Sedes() {
             <h2>{sede.nombre}</h2>
             
            
-            <p>📍 <strong>Distrito:</strong> {sede.distrito}</p>
+            <p><strong>Distrito:</strong> {sede.distrito}</p>
             
             
             <img 

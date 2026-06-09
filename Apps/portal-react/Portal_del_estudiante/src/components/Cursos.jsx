@@ -27,7 +27,7 @@ export default function Cursos() {
                 
                 
                 <p>
-                    <strong>Créditos:</strong> <data value={curso.creditos}>{curso.creditos} hrs</data>
+                    <strong>Duración de Curso:</strong> <data value={curso.creditos}>{curso.creditos} horas</data>
                 </p>
                 <p>
                     <strong>Turno:</strong> <time>{curso.turno}</time>

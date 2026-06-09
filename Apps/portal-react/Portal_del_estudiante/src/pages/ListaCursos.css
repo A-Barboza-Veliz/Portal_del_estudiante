@@ -1,0 +1,77 @@
+.lista-cursos-page {
+  min-height: 100vh;
+  background: #f5f7fa;
+  padding: 40px 20px;
+}
+
+.lista-cursos-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.lista-cursos-header h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.lista-cursos-header p {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cursos-stats {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 0.95rem;
+  color: #999;
+}
+
+.cursos-stats span {
+  background: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  display: inline-block;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.cursos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.loading,
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 8px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.loading p,
+.empty-state p {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .lista-cursos-page {
+    padding: 20px 16px;
+  }
+
+  .lista-cursos-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .cursos-grid {
+    grid-template-columns: 1fr;
+  }
+}

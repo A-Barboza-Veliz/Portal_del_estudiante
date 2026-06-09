@@ -1,0 +1,156 @@
+.contactanos-page {
+  min-height: 100vh;
+  background: #f5f6fa;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Hero */
+.contactanos-hero {
+  background: linear-gradient(135deg, #1a237e 0%, #3949ab 60%, #5c6bc0 100%);
+  color: white;
+  padding: 64px 24px 52px;
+  text-align: center;
+}
+.hero-eyebrow {
+  display: inline-block;
+  background: rgba(255,255,255,0.15);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 20px;
+  padding: 4px 16px;
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 14px;
+}
+.contactanos-hero h1 {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+.contactanos-hero p {
+  font-size: 1rem;
+  opacity: 0.87;
+  max-width: 500px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Body */
+.contactanos-body {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 52px 24px 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  align-items: start;
+}
+@media (max-width: 768px) {
+  .contactanos-body { grid-template-columns: 1fr; gap: 36px; }
+}
+
+.form-section h2, .sedes-section h2 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: #1a237e;
+  margin: 0 0 22px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #e8eaf6;
+}
+
+/* Form */
+.contactanos-form { display: flex; flex-direction: column; gap: 14px; }
+.form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+@media (max-width: 540px) { .form-row { grid-template-columns: 1fr; } }
+
+.form-group { display: flex; flex-direction: column; gap: 5px; }
+.form-group label { font-size: 0.83rem; font-weight: 600; color: #37474f; }
+
+.form-group input,
+.form-group textarea {
+  border: 1.5px solid #c5cae9;
+  border-radius: 8px;
+  padding: 10px 13px;
+  font-size: 0.93rem;
+  color: #263238;
+  background: white;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  resize: none;
+  font-family: inherit;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #3949ab;
+  box-shadow: 0 0 0 3px rgba(57,73,171,0.12);
+}
+.form-group.has-error input,
+.form-group.has-error textarea { border-color: #e53935; }
+.error-msg { font-size: 0.77rem; color: #e53935; }
+
+.btn-primary {
+  background: #3949ab;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 11px 26px;
+  font-size: 0.93rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+  align-self: flex-start;
+}
+.btn-primary:hover:not(:disabled) { background: #1a237e; transform: translateY(-1px); }
+.btn-primary:disabled { opacity: 0.6; cursor: not-allowed; }
+
+/* Success */
+.success-card {
+  background: white;
+  border: 1.5px solid #c8e6c9;
+  border-radius: 12px;
+  padding: 36px 28px;
+  text-align: center;
+}
+.success-icon {
+  width: 52px; height: 52px;
+  background: #43a047;
+  color: white; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.4rem; margin: 0 auto 14px;
+}
+.success-card h3 { font-size: 1.2rem; color: #2e7d32; margin: 0 0 6px; }
+.success-card p { color: #546e7a; margin-bottom: 20px; }
+
+/* Sedes */
+.sedes-grid { display: flex; flex-direction: column; gap: 12px; }
+
+.sede-card {
+  background: white;
+  border: 1.5px solid #e8eaf6;
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  display: flex;
+  gap: 0;
+}
+.sede-card:hover { border-color: #7986cb; box-shadow: 0 2px 8px rgba(57,73,171,0.1); }
+.sede-card.activa { border-color: #3949ab; background: #f3f4fd; }
+
+.sede-img-wrap {
+  width: 90px;
+  min-height: 80px;
+  flex-shrink: 0;
+  overflow: hidden;
+  background: #e8eaf6;
+}
+.sede-img-wrap img { width: 100%; height: 100%; object-fit: cover; }
+
+.sede-info { padding: 12px 16px; flex: 1; }
+.sede-info h3 { font-size: 0.92rem; font-weight: 700; color: #1a237e; margin: 0 0 4px; }
+.sede-distrito { font-size: 0.83rem; color: #607d8b; margin: 0 0 6px; }
+
+.sede-detalle { margin-top: 8px; display: flex; flex-direction: column; gap: 4px; }
+.sede-detalle p { font-size: 0.82rem; color: #455a64; margin: 0; }
+
+.sede-toggle { font-size: 0.77rem; color: #3949ab; font-weight: 600; display: block; margin-top: 6px; }
