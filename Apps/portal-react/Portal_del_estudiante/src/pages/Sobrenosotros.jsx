@@ -1,42 +1,6 @@
 import { useState, useEffect } from "react";
 import "./SobreNosotros.css";
 
-// Datos mock del equipo de desarrollo (para el examen es el equipo del proyecto)
-const equipo = [
-  {
-    id: 1,
-    nombre: "Andrea Quispe",
-    rol: "Frontend Lead",
-    aporte: "Diseño de componentes, Context API y navegación con React Router.",
-    avatar: "AQ",
-    color: "#3949ab",
-  },
-  {
-    id: 2,
-    nombre: "Carlos Mendoza",
-    rol: "Desarrollador React",
-    aporte: "Páginas de Catálogo y Detalle de cursos, integración de datos JSON.",
-    avatar: "CM",
-    color: "#00897b",
-  },
-  {
-    id: 3,
-    nombre: "Lucía Torres",
-    rol: "UI/UX & React",
-    aporte: "Estilos globales, diseño responsive y páginas de Beneficios.",
-    avatar: "LT",
-    color: "#8e24aa",
-  },
-  {
-    id: 4,
-    nombre: "Miguel Ramos",
-    rol: "Desarrollador React",
-    aporte: "Páginas de Contáctanos y Sobre Nosotros, validación de formularios.",
-    avatar: "MR",
-    color: "#e53935",
-  },
-];
-
 const valores = [
   { icono: "★", titulo: "Excelencia", descripcion: "Comprometidos con la calidad académica en cada curso ofrecido." },
   { icono: "◆", titulo: "Comunidad", descripcion: "Fomentamos el trabajo en equipo y el aprendizaje colaborativo." },
