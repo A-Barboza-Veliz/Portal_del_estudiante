@@ -46,3 +46,6 @@ Puedes acceder al código fuente y al control de versiones del proyecto a travé
 Puedes ver la exposición del proyecto y la demostración en vivo a través del siguiente enlace:
 
 🔗 **Ver video en YouTube:** [Portal del Estudiante - Exposición del Proyecto] https://www.youtube.com/watch?v=QMtfZeMKiWQ
+
+
+![Mi Pantallazo](src/assets/pantallazo1.jpg)
