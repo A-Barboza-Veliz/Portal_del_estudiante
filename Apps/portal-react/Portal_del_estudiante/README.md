@@ -1,16 +1,51 @@
-# React + Vite
+# 🎓 Portal del Estudiante
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Bienvenido al repositorio del **Portal del Estudiante**! Esta es una aplicación web SPA (Single Page Application) desarrollada en React y Vite, diseñada para centralizar, gestionar y optimizar el acceso de los alumnos a la oferta académica, sedes de la institución e inscripciones a cursos de manera interactiva y fluida.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📝 Descripción del Proyecto
 
-## React Compiler
+El Portal del Estudiante resuelve el problema de la dispersión de información académica en las instituciones educativas. A través de una interfaz moderna y responsiva, la plataforma permite a los usuarios:
+* **Explorar Sedes:** Visualizar los diferentes campus, su ubicación por distritos y material visual adjunto.
+* **Catálogo de Cursos:** Explorar las materias disponibles, su duración en horas, créditos y turnos.
+* **Sistema de Inscripciones:** Un flujo dinámico que permite simular la pre-inscripción de cursos reflejada en tiempo real en la barra de navegación (NavBar).
+* **Navegación Fluida:** Gracias al enrutamiento interno, el usuario transiciona entre secciones de forma instantánea sin recargas de página.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📊 Matriz de Participación de Integrantes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+| Nombre del Participante | Porcentaje de Participación | Correo Electrónico |
+| :--- | :---: | :--- |
+| Alejandro Barboza Veliz | 100% | 46806566@mail.isl.pe |
+| Pujay Quispe Kimberly Vanessa | 100% | 61294327@mail.isil.pe |
+| 
+
+---
+
+## 🛠️ Herramientas y Tecnologías Utilizadas
+
+* **React (v18+)**: Librería principal basada en componentes para la construcción de la interfaz de usuario.
+* **Vite**: Entorno de desarrollo rápido y empaquetador del proyecto.
+* **React Router Dom (v6)**: Sistema de enrutamiento dinámico para el manejo de las rutas públicas y dinámicas (`/curso/:id`).
+* **Custom Hooks**: Abstracción de lógica de negocio (como `useCursos`) para separar el consumo de datos de la lógica de renderizado.
+* **JSON Local & Fetch API**: Simulación de una API REST asíncrona mediante el consumo de archivos estructurados locales (`/sedes.json`, `/cursos.json`).
+* **HTML5 Semántico & CSS3**: Maquetación estructurada y estilos personalizados para una experiencia responsiva.
+
+---
+
+## 🌐 Dirección del Repositorio
+
+Puedes acceder al código fuente y al control de versiones del proyecto a través del siguiente enlace:
+
+🔗 **GitHub Repository:** https://github.com/A-Barboza-Veliz/Portal_del_estudiante.git
+
+## 📺 Demostración en Video
+
+Puedes ver la exposición del proyecto y la demostración en vivo a través del siguiente enlace:
+
+🔗 **Ver video en YouTube:** [Portal del Estudiante - Exposición del Proyecto] https://www.youtube.com/watch?v=QMtfZeMKiWQ
+
+
+![Mi Pantallazo](src/assets/pantallazo1.jpg)
