@@ -47,5 +47,7 @@ Puedes ver la exposición del proyecto y la demostración en vivo a través del 
 
 🔗 **Ver video en YouTube:** [Portal del Estudiante - Exposición del Proyecto] https://www.youtube.com/watch?v=QMtfZeMKiWQ
 
-
+## Capturas de Pantalla
 ![Mi Pantallazo](src/assets/pantallazo1.jpg)
+![Mi Pantallazo](src/assets/pantallazo2.png)
+![Mi Pantallazo](src/assets/pantallazo3.jpg)
